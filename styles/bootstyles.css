@@ -1,0 +1,81 @@
+body{
+    background-image: url("../images/background7.jpg");
+}
+
+.menu {
+    display: flex;
+    border: dashed 3px rgb(0, 0, 0);
+    background-image: linear-gradient(to right, skyblue , pink);
+    background-color:skyblue;
+    flex-direction: row;
+}
+
+.menu li{
+    display: inline;
+    text-align: center;
+    padding: 5px 5px;
+    height: 50px;
+    flex-grow: 3;
+    list-style: none;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.menu li a:hover {
+    font-size: 48px;
+}
+
+.footer {
+    display: flex;
+    border: dashed 3px rgb(0, 0, 0);
+    background-image: linear-gradient(to right, skyblue , pink);
+    background-color:skyblue;
+    flex-direction: row;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: dashed 3px rgb(0, 0, 0);
+    background-image: linear-gradient(to right, skyblue , pink);
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .name{
+      text-align: left;
+  }
+
+  .copyright{
+      text-align: right;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    gap: 40px;
+}
+
+.grid-item {
+background-image: linear-gradient(to right, skyblue , pink);
+border: solid 2px brown;
+text-align: center;
+border-radius: 25px;
+}
+
+.tableauwebsite{
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    padding-left: 25%;
+
+}
+
+.livegraphs{
+    text-align: center;
+}

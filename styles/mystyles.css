@@ -1,0 +1,108 @@
+body{
+    background-image: url("../images/background7.jpg");
+}
+.byuwebsite{
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgba(9, 81, 109, 0.5) ;
+    border: 2px solid black;
+    text-align: center;
+    display: block;
+    
+}
+
+h1{
+    color: rgb(121, 0, 0);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.titles{
+    font-family: fantasy, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-shadow: -1px -1px 0 rgb(133, 9, 9), 1px -1px 0 rgb(133, 9, 9), -1px 1px 0 rgb(133, 9, 9) 1px 1px 0 rgb(133, 9, 9)
+
+}
+
+h2{
+    font-weight: bold;
+    color: lightslategray;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.GOAT{
+    font-weight: 900;
+    color: black;
+}
+
+.goattext{
+    text-align: center;
+}
+
+.goatanswer{
+    position: relative;
+    left: 50px;
+}
+
+h3{
+    font-weight: normal;
+    padding-left: 10%;
+}
+
+.quote{
+    color: black;
+}
+
+.personquote{
+    color: rgb(121, 0, 0);
+}
+
+.topanchor{
+    font-size: small;
+    font-weight: bolder;
+    border: black;
+}
+
+.candleimage{
+    width: 290px;
+    height: 290px;
+    float: right;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    
+}
+
+.tigerimage{
+    width: 250px;
+    height: 210px;
+    float: left;
+    position: relative;
+    right: 10px;
+    bottom: 0px;
+}
+
+.video{
+    position: relative;
+    left: 200px;
+    bottom: 0px;
+}
+
+.videotext{
+    text-align: center;
+}
+
+.proffesionalimage{
+    width: 200px;
+    height: 300px;
+    float: left;
+    position:static;
+    right: 100px;
+    top: 200px;
+}
+
+.resumetitle{
+    text-align: center;
+    color: rgb(204, 204, 204);
+    text-shadow: -1px -1px 5 #000, 1px -1px 5 #000, -1px 1px 5 #000, 1px 1px 5 #000;
+}
